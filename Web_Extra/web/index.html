@@ -1,16 +1,34 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
+    
     <head>
-        <title>TODO supply a title</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        
+        <!-- CSS -->
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
+        <link rel="stylesheet" href="CSS/reset.css">
+        <link rel="stylesheet" href="CSS/supersized.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        
+        
     </head>
     <body>
-        <div>TODO write content</div>
+        <div class="page-container">
+            <h1>Login</h1>
+            <form action="Serv_IniciaSesion" method="post">
+                <input type="text" name="correo" class="username" placeholder="Correo">
+                <input type="password" name="pass" class="password" placeholder="Contraseña">
+                <button type="submit">Ingresar</button>
+            </form>
+        </div>
+        
+        
+        <!-- Javascript -->
+        <script src="JavaScript/jquery-1.8.2.min.js"></script>
+        <script src="JavaScript/supersized.3.2.7.min.js"></script>
+        <script src="JavaScript/supersized-init.js"></script>
+        <script src="JavaScript/scripts.js"></script>
     </body>
 </html>
